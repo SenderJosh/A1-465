@@ -11,16 +11,3 @@ function popupVisibility(id, buttonText) {
 	}
 	
 }
-function typeToConfirm(id) {
-  let e = document.getElementById(id);
-  if(e.value == "Serious Threat")
-  {
-    alert("Warning has been sent!!");
-    popupVisibility('typeToConfirm', null);
-  }
-  else
-  {
-    alert("Incorrect, try again!");
-  }
-  e.value = "";
-}
